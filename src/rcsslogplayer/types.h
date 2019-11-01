@@ -134,7 +134,9 @@ enum Side {
             "penalty_miss_l",                   \
             "penalty_miss_r",                   \
             "penalty_score_l",                  \
-            "penalty_score_r"                   \
+            "penalty_score_r",                  \
+            "illegal_defense_l",                \
+            "illegal_defense_r"                 \
             }
 
 /*!
@@ -193,6 +195,8 @@ enum PlayMode {
     PM_PenaltyMiss_Right,
     PM_PenaltyScore_Left,
     PM_PenaltyScore_Right,
+    PM_Illegal_Defense_Left,
+    PM_Illegal_Defense_Right,
     PM_MAX
 };
 
