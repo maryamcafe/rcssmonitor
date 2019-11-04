@@ -1314,6 +1314,11 @@ struct ServerParamT {
     bool golden_goal_;
     // v15
     double red_card_probability_;
+    // v16
+    double illegal_defense_dist_x_;
+    int illegal_defense_duration_;
+    int illegal_defense_number_;
+    bool use_illegal_defense_;
 
     ServerParamT();
 
