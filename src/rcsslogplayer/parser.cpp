@@ -1670,7 +1670,6 @@ Parser::parseServerParamLine( const int n_line,
     double_map.insert( DoubleMap::value_type( "illegal_defense_dist_x", &param.illegal_defense_dist_x_ ) );
     int_map.insert( IntMap::value_type( "illegal_defense_duration", &param.illegal_defense_duration_ ) );
     int_map.insert( IntMap::value_type( "illegal_defense_number", &param.illegal_defense_number_ ) );
-    bool_map.insert( BoolMap::value_type( "use_illegal_defense", &param.use_illegal_defense_ ) );
     //
     // parse
     //

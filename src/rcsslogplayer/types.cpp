@@ -422,8 +422,7 @@ ServerParamT::ServerParamT()
       red_card_probability_( 0.0 ),
       illegal_defense_dist_x_( 25.0 ),
       illegal_defense_duration_( 100 ),
-      illegal_defense_number_( 7 ),
-      use_illegal_defense_( true )
+      illegal_defense_number_( 8 )
 {
 
 }
@@ -643,7 +642,6 @@ ServerParamT::print( std::ostream & os ) const
     print_param( os, "illegal_defense_dist_x", quantize( illegal_defense_dist_x_, 0.00001 ) );
     print_param( os, "illegal_defense_duration", quantize( illegal_defense_duration_, 0.00001 ) );
     print_param( os, "illegal_defense_number", quantize( illegal_defense_number_, 0.00001 ) );
-    print_param( os, "use_illegal_defense", quantize( use_illegal_defense_, 0.00001 ) );
     os << ')';
 
     return os;
